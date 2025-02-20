@@ -1,7 +1,7 @@
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
-    const currentDate = new Date().toLocaleDateString("en-GB");
+  const currentDate = new Date().toLocaleDateString("en-GB");
 
   return (
     <footer className="bg-gray-800 text-white py-6">
@@ -10,7 +10,7 @@ const Footer = () => {
           <p>&copy; {currentDate}. Hashim. All rights reserved.</p>
         </div>
         <div className="flex justify-center space-x-6">
-        <a
+          <a
             href="https://github.com/HashimAyamon"
             target="_blank"
             rel="noopener noreferrer"
@@ -26,7 +26,6 @@ const Footer = () => {
           >
             <FaLinkedin size={30} />
           </a>
-         
         </div>
       </div>
     </footer>

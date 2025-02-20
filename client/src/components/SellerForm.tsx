@@ -9,7 +9,6 @@ interface Props {
   title: string;
 }
 
-
 export function SellerForm({ onSubmit, onClose, initialData, title }: Props) {
   const [formData, setFormData] = useState<SellerFormData>({
     account_name: initialData?.account_name || "",
@@ -24,24 +23,19 @@ export function SellerForm({ onSubmit, onClose, initialData, title }: Props) {
   const validate = () => {
     const newErrors: { [key: string]: string } = {};
 
-    
     if (!formData.account_name.trim()) {
       newErrors.account_name = "Oops..Account Name is required";
     }
-  
+
     if (!formData.branch.trim()) newErrors.branch = "Oops..Branch is required";
 
-    
     // if (!formData.date || isNaN(new Date(formData.date).getTime()))
     //   newErrors.date = "Please select a valid date";
 
-  
     if (formData.amount <= 0) newErrors.amount = "Enter Your Valid Amount";
-
 
     setErrors(newErrors);
 
- 
     return Object.keys(newErrors).length === 0;
   };
 
