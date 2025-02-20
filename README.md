@@ -1,4 +1,4 @@
-## Technologies Used
+🛠️ Tech Stack:
 
 - **Frontend**:
   - React
