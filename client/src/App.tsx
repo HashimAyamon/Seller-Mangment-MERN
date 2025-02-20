@@ -186,7 +186,6 @@ function App() {
           initialData={selectedSeller || undefined}
           title={selectedSeller ? "Edit Seller" : "Add New Seller"}
         />
-
       )}
       <Footer />
     </div>
