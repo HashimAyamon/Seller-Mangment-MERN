@@ -6,7 +6,7 @@
 - **Backend**:
   - Express.js
   - Node.js
-  - MongoDB (or another database of your choice)
+  - MongoDB 
 
 
 Set up the Backend
