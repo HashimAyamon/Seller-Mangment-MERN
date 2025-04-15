@@ -1,8 +1,7 @@
-🛠️ Tech Stack:
+🛠️ Tech Stack
 
 - **Frontend**:
-  - React
-  
+  - React  
 - **Backend**:
   - Express.js
   - Node.js
