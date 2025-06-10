@@ -7,7 +7,6 @@
   - Node.js
   - MongoDB 
 
-
 Set up the Backend
 cd backend
 Install the backend dependencies:
